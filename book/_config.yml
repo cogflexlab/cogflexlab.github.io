@@ -28,3 +28,7 @@ sphinx:
   config:
     html_show_copyright: false
     html_last_updated_fmt: "%Y-%m-%d (%H:%M %Z)"
+    html_theme_options:
+      use_download_button: false
+    html_js_files:
+      - custom.js
