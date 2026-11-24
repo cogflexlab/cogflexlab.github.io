@@ -1,0 +1,30 @@
+# Book settings
+title: "Cognitive Flexibility (CogFlex) Lab"
+author: "CogFlex Lab"
+url: "https://cogflexlab.github.io"
+
+repository:
+  url: https://github.com/cogflexlab/cogflexlab.github.io
+  path_to_book: book
+  branch: main
+
+html:
+  home_page_in_navbar: true
+  extra_navbar: |
+    <div>
+      <strong>CogFlex Lab</strong><br>
+      Understanding how minds change<br>
+      Contact: <a href="mailto:alice.cancer@gmail.com">alice.cancer@gmail.com</a>
+    </div>
+
+sphinx:
+  extra_extensions:
+    - sphinx_inline_tabs
+  extra_footer: |
+    <p>
+      Cognitive Flexibility (CogFlex) Lab &middot;
+      <a href="mailto:alice.cancer@gmail.com">alice.cancer@gmail.com</a>
+    </p>
+  config:
+    html_show_copyright: false
+    html_last_updated_fmt: "%Y-%m-%d (%H:%M %Z)"

@@ -1,0 +1,11 @@
+format: jb-book
+root: intro
+parts:
+  - caption: CogFlex Lab
+    chapters:
+      - file: research-group
+        title: Research Group
+      - file: publications
+        title: Peer-Reviewed Publications
+      - file: presentations
+        title: Conference Abstracts & Presentations
