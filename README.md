@@ -20,4 +20,4 @@ Pushes to `main` that modify `book/**` automatically trigger `.github/workflows/
 To enable GitHub Pages on the repository:
 1. Go to **Settings → Pages**.
 2. Set **Source** to **Deploy from a branch**, and select the `gh-pages` branch (`/ (root)`).
-3. Your site will be live at `https://cogflexlab.github.io/`.
+3. Your site will be live at `https://ilgalletta.github.io/cogflexlab/`.

@@ -1,10 +1,10 @@
 # Book settings
 title: "Cognitive Flexibility (CogFlex) Lab"
 author: "CogFlex Lab"
-url: "https://cogflexlab.github.io"
+url: "https://ilgalletta.github.io/cogflexlab"
 
 repository:
-  url: https://github.com/cogflexlab/cogflexlab.github.io
+  url: https://github.com/ilgalletta/cogflexlab
   path_to_book: book
   branch: main
 
