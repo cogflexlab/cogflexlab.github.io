@@ -8,7 +8,3 @@ The CogFlex Lab brings together researchers investigating creative problem solvi
 - **[Paola Iannello](https://www.researchgate.net/profile/Paola-Iannello)** — [ResearchGate Profile](https://www.researchgate.net/profile/Paola-Iannello)
 - **[Alice Cancer](https://www.researchgate.net/profile/Alice-Cancer)** — [ResearchGate Profile](https://www.researchgate.net/profile/Alice-Cancer)
 - **[Elia Amighetti](https://www.researchgate.net/profile/Elia-Amighetti)** — [ResearchGate Profile](https://www.researchgate.net/profile/Elia-Amighetti)
-
-## Contact
-
-For general inquiries or research collaborations, reach out to: [alice.cancer@gmail.com](mailto:alice.cancer@gmail.com).

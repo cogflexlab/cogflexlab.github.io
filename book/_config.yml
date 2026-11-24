@@ -13,8 +13,7 @@ html:
   extra_navbar: |
     <div>
       <strong>CogFlex Lab</strong><br>
-      Understanding how minds change<br>
-      Contact: <a href="mailto:alice.cancer@gmail.com">alice.cancer@gmail.com</a>
+      Understanding how minds change
     </div>
 
 sphinx:
@@ -22,8 +21,7 @@ sphinx:
     - sphinx_inline_tabs
   extra_footer: |
     <p>
-      Cognitive Flexibility (CogFlex) Lab &middot;
-      <a href="mailto:alice.cancer@gmail.com">alice.cancer@gmail.com</a>
+      Cognitive Flexibility (CogFlex) Lab
     </p>
   config:
     html_show_copyright: false
