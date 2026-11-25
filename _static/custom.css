@@ -1,0 +1,141 @@
+/* Muted blue and sage accents, with dark ink for academic content. */
+html[data-theme="light"] {
+  --pst-color-primary: #345e61;
+  --pst-color-secondary: #365d78;
+  --pst-color-text-base: #29353e;
+  --pst-color-text-muted: #53616b;
+  --pst-color-background: #ffffff;
+  --pst-color-on-background: #ffffff;
+  --pst-color-surface: #eef4f2;
+  --pst-color-border: #d8e2df;
+  --lab-sage: #edf4ef;
+  --lab-blue: #eaf1f6;
+  --lab-edge: #8caaa1;
+}
+
+html[data-theme="dark"] {
+  --pst-color-primary: #a7d5ce;
+  --pst-color-secondary: #b1cde0;
+  --lab-sage: #223631;
+  --lab-blue: #24333e;
+  --lab-edge: #8caaa1;
+}
+
+body {
+  line-height: 1.75;
+}
+
+.bd-header {
+  border-top: 4px solid var(--lab-edge);
+}
+
+.bd-sidebar-primary {
+  background: var(--lab-sage);
+  border-right: 1px solid var(--pst-color-border);
+}
+
+.navbar-brand {
+  padding-block: 1.5rem;
+}
+
+.navbar-brand .title {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.bd-sidebar-primary .nav-link {
+  border-radius: 4px;
+  margin-block: .2rem;
+}
+
+.bd-sidebar-primary .nav-link:hover,
+.bd-sidebar-primary li.active > .nav-link {
+  background: var(--lab-blue);
+}
+
+.bd-article h1,
+.bd-article h2,
+.bd-article h3 {
+  line-height: 1.25;
+  color: var(--pst-color-text-base);
+}
+
+.bd-article h1 {
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.8rem;
+  background: var(--lab-blue);
+  border-left: 4px solid var(--lab-edge);
+  border-radius: 0 2px 2px 0;
+  font-size: clamp(1.5rem, 2.2vw, 1.8rem);
+}
+
+.bd-article h2 {
+  margin-top: 2.25rem;
+  padding-bottom: .5rem;
+  border-bottom: 2px solid var(--lab-edge);
+}
+
+.bd-article a {
+  text-underline-offset: .18em;
+}
+
+.bd-article a:focus-visible,
+.bd-sidebar a:focus-visible {
+  outline: 3px solid var(--pst-color-primary);
+  outline-offset: 3px;
+}
+
+.bd-article hr {
+  color: var(--lab-edge);
+  opacity: .5;
+  margin-block: 1.8rem;
+}
+
+/* Keep the existing semantic lists and their research links intact. */
+#explore > ul,
+#members > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#explore > ul > li,
+#members > ul > li {
+  padding: 1.1rem 1.3rem;
+  margin-block: .85rem;
+  border-radius: 2px;
+  border-left: 3px solid var(--lab-edge);
+  background: transparent;
+  border-bottom: 1px solid var(--pst-color-border);
+}
+
+#members > ul > li > p:last-child,
+#explore > ul > li > p:last-child {
+  margin-bottom: 0;
+}
+
+.bd-article ol > li {
+  padding-left: .35rem;
+  margin-bottom: 1.3rem;
+}
+
+.bd-article ol > li::marker {
+  color: var(--pst-color-primary);
+  font-weight: 600;
+}
+
+.bd-footer {
+  border-top: 1px solid var(--pst-color-border);
+  background: var(--lab-sage);
+}
+
+@media (max-width: 575.98px) {
+  .bd-article h1 {
+    padding: 1rem;
+  }
+
+  #members > ul > li,
+  #explore > ul > li {
+    padding: 1rem;
+    overflow-wrap: anywhere;
+  }
+}
