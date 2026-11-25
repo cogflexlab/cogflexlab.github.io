@@ -17,3 +17,4 @@ Our work connects these questions to contemporary challenges, including misinfor
 - **[Research Group](research-group.md)** — Meet the members of the CogFlex Lab.
 - **[Peer-Reviewed Publications](publications.md)** — Journal articles on meta-reasoning, socio-cognitive polarization, and problem solving.
 - **[Conference Abstracts & Presentations](presentations.md)** — Talks and posters presented at national and international conferences.
+<!-- rebuild -->
